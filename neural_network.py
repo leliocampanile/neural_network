@@ -1,12 +1,14 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+# inputs data from we have to learn
 inputs = np.array([[0, 1, 0],
                    [0, 1, 1],
                    [0, 0, 0],
                    [1, 0, 0],
                    [1, 1, 1],
                    [1, 0, 1]])
+
 
 outputs = np.array([[0], [0], [0], [1], [1], [1]])
 
